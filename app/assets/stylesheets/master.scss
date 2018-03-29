@@ -1,4 +1,7 @@
 @import "bootstrap";
+@import "font-awesome";
+
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -25,4 +28,11 @@ body {
 .navbar {
   background: image_url('gray_sand.png');
   box-shadow: 1px 2px 3px #2a2a2a;
+}                         
+
+.navbar-inverse .navbar-brand {
+  color: #FFE057;
+  font-family: 'Mukta Malar', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
 }
