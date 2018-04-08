@@ -9,14 +9,3 @@
   <% end %>
 </div>
 
- <%= link_to 'Nomster', root_path, class: 'navbar-brand' %>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-       <%= link_to new_place_path, class: 'nav-link' do %>
-      <i class="fa fa-plus-circle"></i>
-      New Place
-    <% end %> 
-      </li>
-    <% if user_signed_in? %>
-      <li class="nav-item">
