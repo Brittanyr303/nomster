@@ -1,7 +1,6 @@
 class PlacesController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
-  validates :name,:length => { minimum: 4 }, :presence => true
-  
+
   def index
     @places = Place.all
   end
