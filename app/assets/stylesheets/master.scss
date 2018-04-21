@@ -28,6 +28,7 @@ body {
 .navbar {
   background: image_url('gray_sand.png');
   box-shadow: 1px 2px 3px #2a2a2a;
+  margin-bottom: 0;
 }                         
 
 .navbar-inverse .navbar-brand {
@@ -74,5 +75,17 @@ blockquote p {
 }
 
 modal-footer {
-  margin-top: 100px;
+  padding: 100px;
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel-caption {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
 }
